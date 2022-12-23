@@ -16,10 +16,10 @@ CHIP Or {
     PARTS:
     // Put your code here:
     
-    Nand(a=a, b=a, out=nota);
+    Nand(a=a, b=a, out=aa);
 
-    Nand(a=b, b=b, out=notb);
+    Nand(a=b, b=b, out=bb);
     
-    Nand(a=nota, b=notb, out=out);
+    Nand(a=aa, b=bb, out=out);
     
 }
