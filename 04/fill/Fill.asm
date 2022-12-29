@@ -12,6 +12,7 @@
 // the screen should remain fully clear as long as no key is pressed.
 
 // Put your code here.
+//一個乘數用來做加法，另一個乘數用來做循環
 
 //16384到24575 為螢幕
 //24576為鍵盤
