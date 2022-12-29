@@ -13,17 +13,20 @@
 
 // Put your code here.
 
-	@8192 //total repeat for changing the screen (n)
+//16384到24575 為螢幕
+//24576為鍵盤
+
+	@8192 
 	D=A
 	@0
-	M=D 
+	M=D  //R20存入控制螢幕初始值
 	@24576
-	D=M
+	D=M 
 	@18
 	D;JNE 
 	@0 
 	D=M 
-	M=M-1 
+	M=M-1 //反黑指令
 	@0
 	D;JEQ 
 	@16383
@@ -40,5 +43,5 @@
 	A=A-D 
 	M=-1 
 	@18
-	0;JMP 
+	0;JMP //回到主迴圈指令1
 	

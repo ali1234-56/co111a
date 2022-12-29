@@ -41,13 +41,16 @@ CHIP CPU {
     PARTS:
     // Put your code here:
 
-    And(a=true, b=instruction[15], out=loadinst); 
+    And(a=true, b=instruction[15], out=loadinst);
+    // 根據指令中的a位域判斷將AR的輸出或者inM輸入到ALU 
     Mux16(a=instruction, b=aluoutput, sel=loadinst, out=outmux1); 
 
-    Mux(a=true, b=instruction[5], sel=loadinst, out=loadareg); 
+    Mux(a=true, b=instruction[5], sel=loadinst, out=loadareg);
+    // 如果是C指令並且規定寫入到M 
     ARegister(in=outmux1, load=loadareg, out[0..14]=addressM, out=outareg);
 
-    Mux(a=false, b=instruction[4], sel=loadinst, out=loaddreg);
+    Mux(a=false, b=instruction[4], sel=loadinst, out=loaddreg); 
+    // 如果是C指令並且規定寫入到DR
     DRegister(in=aluoutput, load=loaddreg, out=outdreg);
 
     Mux16(a=outareg, b=inM, sel=instruction[12], out=outmux2);
