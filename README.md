@@ -1,4 +1,9 @@
-第五章參考 https://yizhe87.medium.com/from-nand-to-tetris-nand2tetris-project-5-7846812a8dae
+# 期中
+### 第一章 到 第三章根據網路上的圖片和 https://nand2tetris-hdl.github.io/#pc 所寫出
+### 第四章參考 [https://ehehe.cn/2021/01/28/Nand2Tetris-Project-4/](https://www.youtube.com/watch?v=q0JfmAZCDVs&t=873s) 和 https://hackmd.io/@4txgOiKNTo23AF4JfVTXKg/H1E-3vwbt#Multasm-amp-Fillasm
+### 第五章參考 https://yizhe87.medium.com/from-nand-to-tetris-nand2tetris-project-5-7846812a8dae 和 https://zhuanlan.zhihu.com/p/343850636
+
+#
 
 # 課程：計算機結構 -- 筆記、習題與報告
 
