@@ -14,6 +14,7 @@ CHIP Inc16 {
 
     PARTS:
    // Put you code here:
+   //主要用於將正數變為對應的負數
 
     HalfAdder(a=in[0],b=true,sum=out[0],carry=c1);
     HalfAdder(a=in[1],b=c1,sum=out[1],carry=c2);

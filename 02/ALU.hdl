@@ -44,6 +44,8 @@ CHIP ALU {
     PARTS:
    // Put you code here:
 
+   //三位的加法，包含了一個進位
+
     Mux16(a = x, b[0..15] = false, sel = zx, out = ozx);
 
 

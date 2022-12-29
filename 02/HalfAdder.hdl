@@ -14,6 +14,7 @@ CHIP HalfAdder {
 
     PARTS:
     // Put you code here:
+    //進行兩位加法，即不包含前一步產生的進位
     
     Xor(a=a,b=b,out=sum);
     

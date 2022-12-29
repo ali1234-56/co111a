@@ -14,6 +14,9 @@ CHIP FullAdder {
 
     PARTS:
     // Put you code here:
+
+    //三位的加法，包含了一個進位
+
     Xor(a=a,b=b,out=axorb);
     Xor(a=axorb,b=c,out=sum);
 

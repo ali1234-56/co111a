@@ -15,6 +15,7 @@ CHIP Bit {
 
     PARTS:
     // Put your code here:
+    //1位寄存器，可以實現用於存儲1位數據
     
     Mux(a=a1, b=in, sel=load, out=out1);
 
