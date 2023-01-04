@@ -45,7 +45,7 @@ out 就是計算結果
 zr 如果out = 0，就zr = 1，否則zr = 0
 ng 如果out < 0，就ng = 1，否則ng = 0
   
-## 第三章根據網路上的圖片和 https://nand2tetris-hdl.github.io/#pc 所寫出
+## 第三章根據網路上的圖片和 https://nand2tetris-hdl.github.io/#pc和https://www.twblogs.net/a/5c17d6fcbd9eee5e41845666所寫出
 
 ## 第四章照著程式打[https://ehehe.cn/2021/01/28/Nand2Tetris-Project-4/](https://www.youtube.com/watch?v=q0JfmAZCDVs&t=873s) 和 https://hackmd.io/@4txgOiKNTo23AF4JfVTXKg/H1E-3vwbt#Multasm-amp-Fillasm 和 https://www.cnblogs.com/YjmStr/p/15371886.html#%E7%AC%AC%E5%9B%9B%E5%91%A8machine-language--%E6%9C%BA%E5%99%A8%E8%AF%AD%E8%A8%80
 ### 這個單元圍繞在A指令和C指令
